@@ -8,7 +8,7 @@
 ## Examples
 
 ## Time Complexity
-A good hash table will complete searching, inserting, and deleting in O(1) and spacing in O(n). The worst case scenario is when every insertion causes a hash collision and the table has to resort to a linear search, in which case the time commplexity becomes O(n). The speed of hash tables gives it a great advantage over other data structures. However, when the size of data is not very large, hash tables become higher cost to implement.
+A good hash table will complete searching, inserting, and deleting in O(1) and spacing in O(n). The worst case scenario is when every insertion causes a hash collision and the table has to resort to a linear search, in which case the time commplexity becomes O(n). The speed of hash tables gives it a great advantage over other data structures. However, when the size of data is not very large, hash tables become higher cost to implement. Also there is no way to search for keys that are in relative position to each other, so in certain situations other data structures are more preferable.
 
 ## Collision Resolution
 Open Hashing - Allow multiple values to exist on the same index by creating a linked list.
