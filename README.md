@@ -25,7 +25,7 @@ https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html
     If (hash(x) + 1*1) % S is also full, then we try (hash(x) + 2*2) % S
     If (hash(x) + 2*2) % S is also full, then we try (hash(x) + 3*3) % S
 
-  Double Hashing - Rehash
+  Double Hashing - Rehash upon conflict. 
     If slot hash(x) % S is full, then we try (hash(x) + 1*hash2(x)) % S
     If (hash(x) + 1*hash2(x)) % S is also full, then we try (hash(x) + 2*hash2(x)) % S
     If (hash(x) + 2*hash2(x)) % S is also full, then we try (hash(x) + 3*hash2(x)) % S
