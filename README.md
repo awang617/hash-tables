@@ -1,6 +1,8 @@
 # Hash Tables
 ## Summary
 
+Hash Tables are a structure that allows for specified search to a targeted index of an array. By taking your target value and running it through a hash algorithm you can automatically assign it a position in the array based on it's length. Hash Algorithms are used to make a calculation and return a resulting number that can be passed as an array query with the value pre-hash to compare the results and make sure the index you are opening contains the value you want.
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/315px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Hash_table_5_0_1_1_1_1_1_LL.svg/450px-Hash_table_5_0_1_1_1_1_1_LL.svg.png)
