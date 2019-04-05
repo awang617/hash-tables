@@ -32,9 +32,10 @@ https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html
     If (hash(x) + 2*hash2(x)) % S is also full, then we try (hash(x) + 3*hash2(x)) % S
 
 ## Common Interview Questions
-Given an array of numbers, find two pairs that sum to the same amount.
+Given an array of numbers, find two pairs that sum to the same amount:
 https://www.geeksforgeeks.org/find-four-elements-a-b-c-and-d-in-an-array-such-that-ab-cd/
 
 ### Other Resources
 https://www.youtube.com/watch?v=KyUTuwz_b7Q
+
 https://www.interviewbit.com/courses/programming/topics/hashing/
